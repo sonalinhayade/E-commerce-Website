@@ -47,11 +47,11 @@ const OurStore = () => {
                   <h5 className='sub-title'>Price</h5>
                   <div className='d-flex align-items-center gap-10'>
                     <div className="form-floating">
-                      <input type="email" class="form-control" id="floatingInput" placeholder="From" />
+                      <input type="email" className="form-control" id="floatingInput" placeholder="From" />
                       <label htmlFor="floatingInput">From</label>
                     </div>
                     <div className="form-floating">
-                      <input type="email" class="form-control" id="floatingInput1" placeholder="To" />
+                      <input type="email" className="form-control" id="floatingInput1" placeholder="To" />
                       <label htmlFor="floatingInput1">To</label>
                     </div>
                   </div>
@@ -104,7 +104,7 @@ const OurStore = () => {
                     </div>
                     <div className='w-50'>
                       <h5>Kids headphones bulk 10 pack multi colored for students</h5>
-                      <ReactStars count={5} size={24} value='4' edit='false' activeColor="#ffd700"/>
+                      <ReactStars count={5} size={24} value='3' edit='false' activeColor="#ffd700"/>
                       <b>₹ 8,339</b>
                     </div>
                   </div>
@@ -126,9 +126,9 @@ const OurStore = () => {
                 <div className='d-flex justify-content-between align-items-center'>
                 <div className='d-flex align-items-center gap-10'>
                   <p className='mb-0 d-block' style={{width:'100px'}}>Sort By:</p>
-                  <select name='' className='form-control form-select' id=''>
+                  <select name='' defaultValue={"manual"} className='form-control form-select' id=''>
                       <option value='manual'>Featured</option>
-                      <option value='best-selling' selected='selected'>
+                      <option value='best-selling'>
                         Best Selling
                       </option>
                       <option value='title-ascending'>Alphabetically, A-Z</option>
