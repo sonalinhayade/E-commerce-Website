@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+![Ebuy website pic](https://github.com/sonalinhayade/E-commerce-Website/assets/144022896/a75de84a-0144-4a22-ab20-2e2d973409af)
+
+
 In the project directory, you can run:
 
 ### `npm start`
